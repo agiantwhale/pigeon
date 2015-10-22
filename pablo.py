@@ -48,19 +48,17 @@ if __name__ == "__main__":
     hog = cv2.HOGDescriptor(winSize,blockSize,blockStride,cellSize,nbins)
     hog.setSVMDetector(np.array(detector, dtype=np.float32))
 
-    # drone.move(0.0, 0.0, 0.0, 0.1)
-
     last_move_time = time.time()
-    undetected_frame_count = 0
     while True:
+        if last_move_time + .15 > time.time():
+            continue
+
         frame = drone.VideoImage
         if not frame is None:
             found, w = hog.detectMultiScale(frame)
             draw_detections(frame, found)
             cv2.imshow("Drone feed", frame)
             if len(found) != 0:
-                drone.stop()
-
                 first_rect = found[0]
                 x, y, w, h = first_rect
                 x2 = x + x / 2
@@ -70,18 +68,27 @@ if __name__ == "__main__":
                 f_x2 = f_w / 2
                 f_y2 = f_h / 2
 
-                rotate = (x2-f_x2) / float(f_x2) * 0.15
-                lift = -1.0 * (y2-f_y2) / float(f_y2) * 0.2
+                rotate = (x2-f_x2) / float(f_x2)
+                lift = -1.0 * (y2-f_y2) / float(f_y2)
 
                 print "Rotate value: " + str(rotate)
                 print "Lift value: " + str(lift)
 
-                drone.move(0.0, 0.0, 0.0, rotate)
+                if abs(rotate) > abs(lift):
+                    if rotate > 0:
+                        drone.turnRight(abs(rotate))
+                    else:
+                        drone.turnLeft(abs(rotate))
+                else:
+                    if lift > 0:
+                        drone.moveUp(abs(lift))
+                    else:
+                        drone.moveDown(abs(lift))
+
                 last_move_time = time.time()
             else:
-                undetected_frame_count += 1
-                if undetected_frame_count > 30:
-                    print "Drone stopped"
+                if last_move_time + 1 > time.time():
+                    print "Stopping..."
                     drone.stop()
         if cv2.waitKey(1) == 27:
             break

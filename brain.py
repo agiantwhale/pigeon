@@ -1,7 +1,9 @@
-__author__ = 'jae'
-
+"""
+Implements the drone AI
+"""
 import transitions
 import time
+
 
 class DroneBrain(object):
     """
@@ -17,9 +19,19 @@ class DroneBrain(object):
         self.machine = transitions.Machine(model=self,
                                            states=DroneBrain.states,
                                            initial="rest")
-        self.machine.add_transition(trigger="target_decided", source="search", dest="follow")
+        self.machine.add_transition(
+            trigger="target_decided",
+            source="search",
+            dest="follow")
         self.last_target_detected_time = 0
         self.target = None
+
+    def update(self):
+        """
+        Runs the update function and
+        :return: hori_speed, verti_speed, hover
+        """
+        return 0., 0., True
 
     def evaluate_targets(self, targets):
         """
@@ -37,3 +49,5 @@ class DroneBrain(object):
         :param rect:
         :return:
         """
+        self.machine.set_state("follow")
+        self.machine.target_decided()
