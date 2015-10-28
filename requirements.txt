@@ -1,4 +1,1 @@
 numpy==1.10.1
-six==1.10.0
-transitions==0.2.8
-wheel==0.24.0
