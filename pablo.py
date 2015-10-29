@@ -80,7 +80,7 @@ if __name__ == "__main__":
             found, w = hog.detectMultiScale(frame)
             draw_detections(frame, found)
             cv2.imshow("Drone feed", frame)
-            if last_move_time + .15 < time.time() and len(found) != 0:
+            if last_move_time + 0.1 < time.time() and len(found) != 0:
                 first_rect = found[0]
                 x, y, w, h = first_rect
                 x2 = x + x / 2
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
                 last_move_time = time.time()
             else:
-                if last_move_time + 1 > time.time():
+                if last_move_time + 0.25 > time.time():
                     print "Stopping..."
                     drone.stop()
             if not args.output is None:
