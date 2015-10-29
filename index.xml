@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>P I G E O N</title>
-    <link>http://ijlee.me/pigeon/</link>
+    <link>https://ijlee.me/pigeon/</link>
     <description>Recent content on P I G E O N</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Oct 2015 23:58:36 -0400</lastBuildDate>
-    <atom:link href="http://ijlee.me/pigeon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ijlee.me/pigeon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First flight</title>
-      <link>http://ijlee.me/pigeon/firstflight/</link>
+      <link>https://ijlee.me/pigeon/firstflight/</link>
       <pubDate>Wed, 28 Oct 2015 23:58:36 -0400</pubDate>
       
-      <guid>http://ijlee.me/pigeon/firstflight/</guid>
+      <guid>https://ijlee.me/pigeon/firstflight/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;http://www.youtube.com/embed/cg-Bf-yKR7Q&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Classification and Training</title>
-      <link>http://ijlee.me/pigeon/classification/</link>
+      <link>https://ijlee.me/pigeon/classification/</link>
       <pubDate>Wed, 28 Oct 2015 23:55:21 -0400</pubDate>
       
-      <guid>http://ijlee.me/pigeon/classification/</guid>
+      <guid>https://ijlee.me/pigeon/classification/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;http://www.youtube.com/embed/8mMp3JvkhyI&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
