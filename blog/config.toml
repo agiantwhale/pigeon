@@ -1,3 +1,17 @@
 baseurl = "https://ijlee.me/pigeon/"
 languageCode = "en-us"
 title = "P I G E O N"
+
+[params]
+  description = "It's time to fly."
+  author = "Il Jae Lee"
+
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "blog"
+    url = "https://ijlee.me/pigeon/"
+[[menu.main]]
+    name = "other"
+    url = "https://ijlee.me/"

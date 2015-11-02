@@ -73,5 +73,24 @@
 </description>
     </item>
     
+    <item>
+      <title>about</title>
+      <link>https://ijlee.me/pigeon/about/</link>
+      <pubDate>Fri, 02 Oct 2015 16:16:39 -0500</pubDate>
+      
+      <guid>https://ijlee.me/pigeon/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/3o85xF58GQRV1iQFlC.gif&#34; alt=&#34;Fly pigeon, fly!&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I won a drone for the &lt;a href=&#34;http://devpost.com/software/biometric-2-factor-security&#34;&gt;&amp;ldquo;Best Security Hack&amp;rdquo;&lt;/a&gt; from &lt;a href=&#34;http://mhacks.org/&#34;&gt;MHacks 6&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I decided to build a pet drone with it.&lt;/p&gt;
+
+&lt;p&gt;This blog is just a documentation of my progress - you probably won&amp;rsquo;t find anything valuable here.&lt;/p&gt;
+
+&lt;p&gt;Come check out other stuff I&amp;rsquo;m doing at my &lt;a href=&#34;https://ijlee.me/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

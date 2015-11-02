@@ -2,5 +2,12 @@
         <div class="container">
             <a href="{{ .Site.BaseURL }}" alt="{{ .Site.Title }}"><h1 class="blog-title heading">{{ .Site.Title }}</h1></a>
             <p class="blog-description">{{ .Site.Params.description }}</p>
+            <div class="blog-menus">
+              <h5>
+              {{ range .Site.Menus.main }}
+              <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ end }}
+              </h5>
+            </div>
         </div>
     </header>
