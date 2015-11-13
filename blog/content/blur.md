@@ -17,4 +17,4 @@ It works fairly well. (Left is the previous extractor, right is the new extracto
 
 ![Imgur](http://i.imgur.com/Psjupmb.png)
 
-Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this, I will take a look later next weekend.
+Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this when accelerometer information is available, I will take a look later next weekend.
