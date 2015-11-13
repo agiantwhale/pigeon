@@ -6,8 +6,36 @@
     <description>Recent content on P I G E O N</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2015 23:58:36 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2015 21:28:42 -0500</lastBuildDate>
     <atom:link href="https://ijlee.me/pigeon/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vision Improvements</title>
+      <link>https://ijlee.me/pigeon/blur/</link>
+      <pubDate>Thu, 12 Nov 2015 21:28:42 -0500</pubDate>
+      
+      <guid>https://ijlee.me/pigeon/blur/</guid>
+      <description>&lt;p&gt;I had terrible accuracy when there was motion blur in the video source. My attempt to solve this issue by blurring the positive training set and retraining them.&lt;/p&gt;
+
+&lt;p&gt;It works fairly well. (Left is the previous extractor, right is the new extractor trained from blurred images.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/auMfAso.png&#34; alt=&#34;Imgur&#34; /&gt;
+
+&lt;img src=&#34;http://i.imgur.com/o4RQpHV.png&#34; alt=&#34;Imgur&#34; /&gt;
+
+&lt;img src=&#34;http://i.imgur.com/NraKfsQ.png&#34; alt=&#34;Imgur&#34; /&gt;
+
+&lt;img src=&#34;http://i.imgur.com/usUkqm5.png&#34; alt=&#34;Imgur&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;However, for strongly blurred images, it still falls short.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this, I will take a look later next weekend.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First flight</title>
