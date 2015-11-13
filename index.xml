@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this, I will take a look later next weekend.&lt;/p&gt;
+&lt;p&gt;Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this when accelerometer information is available, I will take a look later next weekend.&lt;/p&gt;
 </description>
     </item>
     
