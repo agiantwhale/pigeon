@@ -66,13 +66,6 @@ if __name__ == "__main__":
     while drone.VideoImage is None:
         time.sleep(0.1)
 
-    drone.takeoff()
-
-    # time.sleep(7.5)
-
-    while drone.NavData["demo"][0][2]:
-        time.sleep(0.1) # Wait until drone is completely flying
-
     if not args.output is None:
         dir = os.path.join(args.output, str(int(time.time())))
         os.makedirs(dir)
@@ -84,42 +77,8 @@ if __name__ == "__main__":
             found, w = hog.detectMultiScale(frame)
             draw_detections(frame, found)
             cv2.imshow("Drone feed", frame)
-            if last_move_time + 0.1 < time.time() and len(found) != 0:
-                first_rect = found[0]
-                x, y, w, h = first_rect
-                x2 = x + x / 2
-                y2 = y + y / 2
-
-                f_h, f_w = frame.shape[:2]
-                f_x2 = f_w / 2
-                f_y2 = f_h / 2
-
-                rotate = (x2-f_x2) / float(f_x2)
-                lift = -1.0 * (y2-f_y2) / float(f_y2)
-                lift = 0
-
-                rotate *= .6
-                lift *= .6
-
-                print "Rotate value: " + str(rotate)
-                print "Lift value: " + str(lift)
-
-                if abs(rotate) > abs(lift):
-                    if rotate > 0:
-                        drone.turnRight(abs(rotate))
-                    else:
-                        drone.turnLeft(abs(rotate))
-                else:
-                    if lift > 0:
-                        drone.moveUp(abs(lift))
-                    else:
-                        drone.moveDown(abs(lift))
-
-                last_move_time = time.time()
-            else:
-                if last_move_time + 0.15 > time.time():
-                    print "Stopping..."
-                    drone.stop()
+            print "FPS: " + str(int( 1 / (time.time() - last_move_time)))
+            last_move_time = time.time()
             if not args.output is None:
                 # Save the frame so FFMPEG can correctly encode.
                 cv2.imwrite(dir+str(int(time.time()))+".png",
@@ -127,5 +86,3 @@ if __name__ == "__main__":
                             [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
         if cv2.waitKey(1) == 27:
             break
-
-    drone.land()
