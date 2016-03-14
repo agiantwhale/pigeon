@@ -80,14 +80,14 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
 
 &lt;p&gt;It works fairly well. (Left is the previous extractor, right is the new extractor trained from blurred images.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/auMfAso.png&#34; alt=&#34;Imgur&#34; /&gt;
-&lt;img src=&#34;http://i.imgur.com/o4RQpHV.png&#34; alt=&#34;Imgur&#34; /&gt;
-&lt;img src=&#34;http://i.imgur.com/NraKfsQ.png&#34; alt=&#34;Imgur&#34; /&gt;
-&lt;img src=&#34;http://i.imgur.com/usUkqm5.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//i.imgur.com/auMfAso.png&#34; alt=&#34;Imgur&#34; /&gt;
+&lt;img src=&#34;//i.imgur.com/o4RQpHV.png&#34; alt=&#34;Imgur&#34; /&gt;
+&lt;img src=&#34;//i.imgur.com/NraKfsQ.png&#34; alt=&#34;Imgur&#34; /&gt;
+&lt;img src=&#34;//i.imgur.com/usUkqm5.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;However, for strongly blurred images, it still falls short.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this when accelerometer information is available, I will take a look later next weekend.&lt;/p&gt;
 </description>
@@ -163,7 +163,7 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
       <pubDate>Fri, 02 Oct 2015 16:16:39 -0500</pubDate>
       
       <guid>https://jae.works/pigeon/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/3o85xF58GQRV1iQFlC.gif&#34; alt=&#34;Fly pigeon, fly!&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;//i.giphy.com/3o85xF58GQRV1iQFlC.gif&#34; alt=&#34;Fly pigeon, fly!&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I won a drone for the &lt;a href=&#34;http://devpost.com/software/biometric-2-factor-security&#34;&gt;&amp;ldquo;Best Security Hack&amp;rdquo;&lt;/a&gt; from &lt;a href=&#34;http://mhacks.org/&#34;&gt;MHacks 6&lt;/a&gt;.&lt;/p&gt;
 
@@ -171,7 +171,7 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
 
 &lt;p&gt;This blog is just a documentation of my progress - you probably won&amp;rsquo;t find anything valuable here.&lt;/p&gt;
 
-&lt;p&gt;Come check out other stuff I&amp;rsquo;m doing at my &lt;a href=&#34;https://ijlee.me/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Come check out other stuff I&amp;rsquo;m doing at my &lt;a href=&#34;https://jae.works/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

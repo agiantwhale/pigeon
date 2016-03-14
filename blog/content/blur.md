@@ -8,13 +8,13 @@ I had terrible accuracy when there was motion blur in the video source. My attem
 
 It works fairly well. (Left is the previous extractor, right is the new extractor trained from blurred images.)
 
-![Imgur](http://i.imgur.com/auMfAso.png)
-![Imgur](http://i.imgur.com/o4RQpHV.png)
-![Imgur](http://i.imgur.com/NraKfsQ.png)
-![Imgur](http://i.imgur.com/usUkqm5.png)
+![Imgur](//i.imgur.com/auMfAso.png)
+![Imgur](//i.imgur.com/o4RQpHV.png)
+![Imgur](//i.imgur.com/NraKfsQ.png)
+![Imgur](//i.imgur.com/usUkqm5.png)
 
 **However, for strongly blurred images, it still falls short.**
 
-![Imgur](http://i.imgur.com/Psjupmb.png)
+![Imgur](//i.imgur.com/Psjupmb.png)
 
 Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this when accelerometer information is available, I will take a look later next weekend.
