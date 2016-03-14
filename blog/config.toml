@@ -1,4 +1,4 @@
-baseurl = "https://ijlee.me/pigeon/"
+baseurl = "https://jae.works/pigeon/"
 languageCode = "en-us"
 title = "P I G E O N"
 
@@ -11,7 +11,7 @@ title = "P I G E O N"
     url = "/about/"
 [[menu.main]]
     name = "blog"
-    url = "https://ijlee.me/pigeon/"
+    url = "https://jae.works/pigeon/"
 [[menu.main]]
     name = "other"
-    url = "https://ijlee.me/"
+    url = "https://jae.works/"
