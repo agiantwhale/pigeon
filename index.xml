@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>P I G E O N</title>
-    <link>https://ijlee.me/pigeon/</link>
+    <link>https://jae.works/pigeon/</link>
     <description>Recent content on P I G E O N</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Nov 2015 20:24:20 -0500</lastBuildDate>
-    <atom:link href="https://ijlee.me/pigeon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jae.works/pigeon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Death to the Pigeon</title>
-      <link>https://ijlee.me/pigeon/rip/</link>
+      <link>https://jae.works/pigeon/rip/</link>
       <pubDate>Tue, 17 Nov 2015 20:24:20 -0500</pubDate>
       
-      <guid>https://ijlee.me/pigeon/rip/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+      <guid>https://jae.works/pigeon/rip/</guid>
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/vKlt7KCVg-s&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
@@ -36,7 +36,7 @@
 	height:100%;
 }
 &lt;/style&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;After crashing numerous times while writing software for Pigeon, the central cross finally broke down.
 I started seeing red lights on the back two propellers, probably was not a good idea to ignore them.&lt;/p&gt;
@@ -72,27 +72,22 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
     
     <item>
       <title>Vision Improvements</title>
-      <link>https://ijlee.me/pigeon/blur/</link>
+      <link>https://jae.works/pigeon/blur/</link>
       <pubDate>Thu, 12 Nov 2015 21:28:42 -0500</pubDate>
       
-      <guid>https://ijlee.me/pigeon/blur/</guid>
+      <guid>https://jae.works/pigeon/blur/</guid>
       <description>&lt;p&gt;I had terrible accuracy when there was motion blur in the video source. My attempt to solve this issue by blurring the positive training set and retraining them.&lt;/p&gt;
 
 &lt;p&gt;It works fairly well. (Left is the previous extractor, right is the new extractor trained from blurred images.)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://i.imgur.com/auMfAso.png&#34; alt=&#34;Imgur&#34; /&gt;
-
 &lt;img src=&#34;http://i.imgur.com/o4RQpHV.png&#34; alt=&#34;Imgur&#34; /&gt;
-
 &lt;img src=&#34;http://i.imgur.com/NraKfsQ.png&#34; alt=&#34;Imgur&#34; /&gt;
-
-&lt;img src=&#34;http://i.imgur.com/usUkqm5.png&#34; alt=&#34;Imgur&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;http://i.imgur.com/usUkqm5.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;However, for strongly blurred images, it still falls short.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Psjupmb.png&#34; alt=&#34;Imgur&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next idea is to apply deblurring filters before running detection. Adobe released some information regarding this when accelerometer information is available, I will take a look later next weekend.&lt;/p&gt;
 </description>
@@ -100,11 +95,11 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
     
     <item>
       <title>First flight</title>
-      <link>https://ijlee.me/pigeon/firstflight/</link>
+      <link>https://jae.works/pigeon/firstflight/</link>
       <pubDate>Wed, 28 Oct 2015 23:58:36 -0400</pubDate>
       
-      <guid>https://ijlee.me/pigeon/firstflight/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+      <guid>https://jae.works/pigeon/firstflight/</guid>
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/cg-Bf-yKR7Q&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
@@ -125,7 +120,7 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
 	height:100%;
 }
 &lt;/style&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;The drone attempts (and fails miserably) to center the &amp;ldquo;MHacks&amp;rdquo; logo.&lt;/p&gt;
 </description>
@@ -133,11 +128,11 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
     
     <item>
       <title>Classification and Training</title>
-      <link>https://ijlee.me/pigeon/classification/</link>
+      <link>https://jae.works/pigeon/classification/</link>
       <pubDate>Wed, 28 Oct 2015 23:55:21 -0400</pubDate>
       
-      <guid>https://ijlee.me/pigeon/classification/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+      <guid>https://jae.works/pigeon/classification/</guid>
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/8mMp3JvkhyI&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
@@ -158,18 +153,17 @@ If the latter, I will start updating this blog with work I am dong for &lt;a hre
 	height:100%;
 }
 &lt;/style&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
     <item>
       <title>about</title>
-      <link>https://ijlee.me/pigeon/about/</link>
+      <link>https://jae.works/pigeon/about/</link>
       <pubDate>Fri, 02 Oct 2015 16:16:39 -0500</pubDate>
       
-      <guid>https://ijlee.me/pigeon/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/3o85xF58GQRV1iQFlC.gif&#34; alt=&#34;Fly pigeon, fly!&#34; /&gt;
-&lt;/p&gt;
+      <guid>https://jae.works/pigeon/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/3o85xF58GQRV1iQFlC.gif&#34; alt=&#34;Fly pigeon, fly!&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I won a drone for the &lt;a href=&#34;http://devpost.com/software/biometric-2-factor-security&#34;&gt;&amp;ldquo;Best Security Hack&amp;rdquo;&lt;/a&gt; from &lt;a href=&#34;http://mhacks.org/&#34;&gt;MHacks 6&lt;/a&gt;.&lt;/p&gt;
 
